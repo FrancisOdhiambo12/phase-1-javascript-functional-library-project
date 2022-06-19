@@ -66,7 +66,7 @@ describe('index.js', function () {
     const callback = (acc, val, collection) => (acc + (val * 3))
 
     it('returns the correct reduced value when passed an initial value', function () {
-      const reduceWithAcc = myReduce(testArr, callback, 10)
+      const reduceWithAcc = (testArr, callbamyReduceck, 10)
       expect(reduceWithAcc).to.equal(40)
     })
 
